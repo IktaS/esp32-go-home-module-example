@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>ESP32</title>
+		<link rel="stylesheet" type="text/css" href="style.css" />
+	</head>
+	<body>
+		<div class="container">
+			<form id="contact" action="/connect" method="post" target="hidden-form">
+				<h3>Connect to Hub</h3>
+				<fieldset>
+					<input
+						placeholder="SSID"
+						type="text"
+						tabindex="1"
+						id="ssid"
+						name="ssid"
+						required
+						autofocus
+					/>
+				</fieldset>
+				<fieldset>
+					<input
+						placeholder="SSID Password"
+						type="password"
+						tabindex="2"
+						id="ssidpass"
+						name="ssidpass"
+						required
+					/>
+				</fieldset>
+				<fieldset>
+					<input
+						placeholder="Hub IP"
+						type="url"
+						tabindex="3"
+						required
+						id="hubip"
+						name="hubip"
+					/>
+				</fieldset>
+				<fieldset>
+					<input
+						placeholder="Hub Code"
+						type="password"
+						tabindex="4"
+						required
+						id="hubcode"
+						name="hubcode"
+					/>
+				</fieldset>
+				<fieldset>
+					<input
+						placeholder="Device Name"
+						type="text"
+						tabindex="4"
+						id="device-name"
+						name="name"
+					/>
+				</fieldset>
+				<fieldset>
+					<button type="submit" data-submit="...Connecting">Submit</button>
+				</fieldset>
+			</form>
+		</div>
+	</body>
+</html>

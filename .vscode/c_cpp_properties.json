@@ -1,0 +1,28 @@
+{
+    "configurations": [
+        {
+            "name": "Win32",
+            "includePath": [
+                "C:\\Users\\imamr\\AppData\\Local\\Arduino15\\packages\\esp8266\\tools\\**",
+                "C:\\Users\\imamr\\AppData\\Local\\Arduino15\\packages\\esp8266\\hardware\\esp8266\\2.7.4\\**",
+                "C:\\Users\\imamr\\AppData\\Local\\Arduino15\\packages\\esp32\\tools\\**",
+                "D:\\Dev\\Arduino\\libraries\\**",
+                "D:\\Programs\\Arduino\\libraries\\**",
+                "C:\\Users\\imamr\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\1.0.4\\**",
+                "/home/ikta/.arduino15/packages/esp32/hardware/esp32/1.0.4/**",
+                "$ARDUINOPATH/libraries/**",
+                "/home/ikta/Arduino/libraries/**",
+                "/home/ikta/.arduino15/packages/esp32/tools/**"
+            ],
+            "forcedInclude": [],
+            "defines": [
+                "USBCON"
+            ],
+            "intelliSenseMode": "msvc-x64",
+            "compilerPath": "C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/VC/Tools/MSVC/14.16.27023/bin/Hostx64/x64/cl.exe",
+            "cStandard": "c17",
+            "cppStandard": "c++17"
+        }
+    ],
+    "version": 4
+}

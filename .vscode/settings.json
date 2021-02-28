@@ -1,0 +1,7 @@
+{
+    "files.associations": {
+        "*.ts": "typescript",
+        "queue": "cpp",
+        "random": "cpp"
+    }
+}
